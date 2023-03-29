@@ -3,8 +3,8 @@ template para relatórios de atividades
 
 ### Instituto Federal de Mato Grosso
 
-Estudante: Xxxxxxxx Yyyyyyyyyy Zzzzzzzz
-Matrícula: 20XX178440206
+Estudante: Mariana Dias do Espirito Santo
+Matrícula: 2019178440380
 Curso: Engenharia da Computação
 Disciplina: Redes de Computadores II
 
@@ -23,7 +23,8 @@ no shutdown
 int atm1/0.100 point-to-point
 ip address 10.10.10.1 255.255.255.252
 pvc 100/101
-ip address 10.10.10.2 broadcast
+ip address 10.10.10.2 broadcast -> comando inválido
+broadcast
 encapsulation aal5snap
 ```
 
@@ -35,7 +36,8 @@ no shutdown
 int atm1/0.100 point-to-point
 ip address 10.10.10.2 255.255.255.252
 pvc 100/201
-ip address 10.10.10.1 broadcast
+ip address 10.10.10.1 broadcast -> comando inválido
+broadcast
 encapsulation aal5snap
 ```
 
